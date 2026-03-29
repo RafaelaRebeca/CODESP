@@ -11,28 +11,13 @@
 
 ## 1. Visão Geral do Sistema Proposto
 
-O sistema proposto consiste em um aplicativo mobile para gerenciamento de inscrições em turmas esportivas do IFRN. A solução visa substituir o processo manual atualmente realizado por meio de planilhas e atendimento presencial, proporcionando maior eficiência, transparência e acessibilidade.
+O sistema proposto consiste em um aplicativo mobile para gerenciamento de inscrições em turmas esportivas do IFRN, com o objetivo de substituir o processo manual atualmente realizado por meio de planilhas e atendimento presencial.
 
 A aplicação permitirá que estudantes realizem inscrições de forma remota, acompanhem o status de suas vagas e visualizem sua posição em listas de espera. Além disso, o sistema fornecerá aos gerentes ferramentas para criação e administração de turmas, controle de vagas e acompanhamento de inscritos.
 
 ---
 
-## 2. Visão Geral do Produto
-
-O produto será um aplicativo mobile que permitirá a digitalização completa do processo de inscrição em atividades esportivas institucionais.
-
-Ele terá como principais características:
-- Acesso remoto às inscrições
-- Controle automático de vagas
-- Lista de espera com atualização em tempo real
-- Transparência para os estudantes
-- Facilidade de gerenciamento para os administradores
-
-O sistema será projetado para ser simples, intuitivo e acessível, reduzindo erros humanos e eliminando a necessidade de processos presenciais.
-
----
-
-## 3. Descrição do Problema
+## 2. Descrição do Problema
 
 | - | - |
 | :-: | :-: |
@@ -43,7 +28,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 4. Descrição dos Usuários 
+## 3. Descrição dos Usuários 
 
 | Usuário | Descrição | Responsabilidades |
 | :-----: | :-------: | :--------------: |
@@ -53,7 +38,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 5. Descrição do Ambiente dos Usuários
+## 4. Descrição do Ambiente dos Usuários
 
 | Usuário | Ambiente operacional |
 | :-----: | :------------------: |
@@ -62,7 +47,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 6. Principais Necessidades dos Usuários
+## 5. Principais Necessidades dos Usuários
 
 1. **Estudante**
    - Realizar inscrição online em turmas esportivas
@@ -78,7 +63,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 7. Alternativas Concorrentes
+## 6. Alternativas Concorrentes
 
 1. **Planilhas (Excel/Google Sheets)**
    - **Pontos fortes:**
@@ -103,7 +88,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 8. Regras de Negócio
+## 7. Regras de Negócio
 
 | ID  | Regra | Descrição |
 | :-: | :---: | :-------: |
@@ -116,9 +101,9 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 9. Requisitos Funcionais
+## 8. Requisitos Funcionais
 
-### 9.1 Cadastro e Autenticação
+### 8.1 Cadastro e Autenticação
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
@@ -127,7 +112,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-### 9.2 Gerenciamento de Turmas
+### 8.2 Gerenciamento de Turmas
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
@@ -136,7 +121,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-### 9.3 Inscrição
+### 8.3 Inscrição
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
@@ -146,7 +131,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-### 9.4 Acompanhamento
+### 8.4 Acompanhamento
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
@@ -155,7 +140,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-### 9.5 Administração
+### 8.5 Administração
 
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
@@ -163,7 +148,7 @@ O sistema será projetado para ser simples, intuitivo e acessível, reduzindo er
 
 ---
 
-## 10. Requisitos Não-funcionais
+## 9. Requisitos Não-funcionais
 
 | Código | Nome | Descrição | Categoria | Classificação |
 | :----: | :--: | :-------: | :-------: | :-----------: |
