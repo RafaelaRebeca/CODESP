@@ -22,7 +22,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 |-|-|
 | :-: | :-: |
 | **Problema** | Processo manual de inscrição em turmas esportivas utilizando planilhas e atendimento presencial |
-| **Afeta** | Estudantes e gerentes responsáveis pelas turmas |
+| **Afeta** | Estudantes e administradores responsáveis pelas turmas |
 | **Impacta** | Falta de transparência, dificuldade no controle de vagas, erros humanos, ausência de comunicação eficiente |
 | **Solução** | Desenvolvimento de um aplicativo mobile para automatizar inscrições, gerenciar listas de espera e melhorar a comunicação |
 
@@ -34,7 +34,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | :-----: | :-------: | :--------------: |
 | Sistema | Plataforma digital de gerenciamento | Processar inscrições, controlar vagas e listas de espera |
 | Estudante | Aluno do IFRN interessado em participar de atividades esportivas | Realizar cadastro, inscrever-se em turmas e acompanhar status |
-| Gerente | Responsável pela gestão das turmas esportivas | Criar turmas, gerenciar inscritos e controlar vagas |
+| Administrador | Responsável pela gestão das turmas esportivas | Criar turmas, gerenciar inscritos e controlar vagas |
 
 ---
 
@@ -43,7 +43,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | Usuário | Ambiente operacional |
 | :-----: | :------------------: |
 | Estudante | Dispositivos móveis (smartphones) com acesso à internet |
-| Gerente | Computadores ou dispositivos móveis com acesso à internet |
+| Administrador | Computadores ou dispositivos móveis com acesso à internet |
 
 ---
 
@@ -55,7 +55,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
    - Acompanhar posição na lista de espera
    - Receber informações atualizadas sobre vagas
 
-2. **Gerente**
+2. **Administrador**
    - Criar e gerenciar turmas
    - Definir quantidade de vagas
    - Visualizar lista de inscritos
@@ -87,7 +87,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | RN03 | Lista de espera | Alunos excedentes são inseridos automaticamente em lista de espera |
 | RN04 | Promoção automática | Quando uma vaga é liberada, o próximo da lista de espera é promovido |
 | RN05 | Dados obrigatórios | O cadastro do estudante deve conter nome, matrícula, CFP, telefone, e-mail e data de nascimento |
-| RN06 | Controle de vagas | Cada turma possui um número máximo de vagas definido pelo gerente |
+| RN06 | Controle de vagas | Cada turma possui um número máximo de vagas definido pelo administrador |
 
 ---
 
@@ -107,7 +107,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
 | RF03 | Visualizar turmas | Exibir turmas disponíveis e lotadas | Alta |
-| RF04 | Criar turma | Permitir que o gerente crie novas turmas | Alta |
+| RF04 | Criar turma | Permitir que o administrador crie novas turmas | Alta |
 
 ---
 
