@@ -19,7 +19,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 ## 2. Descrição do Problema
 
-
+|-|-|
 | :-: | :-: |
 | **Problema** | Processo manual de inscrição em turmas esportivas utilizando planilhas e atendimento presencial |
 | **Afeta** | Estudantes e gerentes responsáveis pelas turmas |
