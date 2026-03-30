@@ -19,7 +19,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 ## 2. Descrição do Problema
 
-| - | - |
+
 | :-: | :-: |
 | **Problema** | Processo manual de inscrição em turmas esportivas utilizando planilhas e atendimento presencial |
 | **Afeta** | Estudantes e gerentes responsáveis pelas turmas |
@@ -76,16 +76,6 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
      - Baixa transparência
      - Dificuldade de controle de lista de espera
 
-2. **Inscrição presencial**
-   - **Pontos fortes:**
-     - Contato direto com o responsável
-     - Simplicidade no processo inicial
-   - **Pontos fracos:**
-     - Necessidade de deslocamento
-     - Falta de praticidade
-     - Informação não acessível posteriormente
-     - Problemas de comunicação sobre mudanças
-
 ---
 
 ## 7. Regras de Negócio
@@ -96,7 +86,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | RN02 | Ordem de inscrição | As vagas são preenchidas por ordem de chegada |
 | RN03 | Lista de espera | Alunos excedentes são inseridos automaticamente em lista de espera |
 | RN04 | Promoção automática | Quando uma vaga é liberada, o próximo da lista de espera é promovido |
-| RN05 | Dados obrigatórios | O cadastro do estudante deve conter matrícula, CPF e telefone |
+| RN05 | Dados obrigatórios | O cadastro do estudante deve conter nome, matrícula, CFP, telefone, e-mail e data de nascimento |
 | RN06 | Controle de vagas | Cada turma possui um número máximo de vagas definido pelo gerente |
 
 ---
