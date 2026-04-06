@@ -4,20 +4,20 @@
 
 | Data | Versão | Descrição | Autores |
 | :--: | :----: | :-------: | :-----: |
-| - | - | Versão inicial |  - |
+| 30/03 | 1.0 | Versão inicial |  Igor |
 | - | - | - |  - |
 
 ## 1. Diagrama ER
 
-![Substitua pela imagem do Diagrama ER...](imgs/placeholder.png)
-> Substitua pela imagem do Diagrama ER...
+(imgs/modelo-conceitual.png)
 
-[LINK para o arquivo com o modelo](#)
+
+[LINK para o arquivo com o modelo](#imgs)
 
 ## 2. Modelo Relacional
 
-![Substitua pela imagem do Modelo Relacional...](imgs/placeholder.png)
-> Substitua pela imagem do Modelo Relacional...
+(imgs/modelo-logico.png)
+
 
 [LINK para o arquivo com o modelo](#)
 
