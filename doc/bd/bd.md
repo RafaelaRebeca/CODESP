@@ -9,15 +9,15 @@
 
 ## 1. Diagrama ER
 
-<img src="imgs/modelo-conceitual.png.png"/>
+<img src="imgs/modelo-conceitual.png"/>
 
-[LINK para o arquivo com o modelo](imgs/modelo-conceitual.png.png)
+[LINK para o arquivo com o modelo](imgs/modelo-conceitual.png)
 
 ## 2. Modelo Relacional
 
 <img src="imgs/modelo-logico.png"/>
 
-[LINK para o arquivo com o modelo](imgs/modelo-conceitual.png.png)
+[LINK para o arquivo com o modelo](imgs/modelo-conceitual.png)
 
 ## 3. Dicionário de Dados
 
