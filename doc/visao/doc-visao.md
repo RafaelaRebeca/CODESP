@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autores |
 | :--: | :----: | :-------: | :-----: |
-| 29/03 | 1.0 | Versão inicial | Igor |
+| 04/05 | 1.0 | Versão final | Todos |
 | - | - | - | - |
 
 ---
@@ -23,7 +23,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 | :-: | :-: |
 | **Problema** | Processo manual de inscrição em turmas esportivas utilizando planilhas e atendimento presencial |
 | **Afeta** | Estudantes e administradores responsáveis pelas turmas |
-| **Impacta** | Falta de transparência, dificuldade no controle de vagas, erros humanos, ausência de comunicação eficiente |
+| **Impacta** | Falta de transparência, dificuldade no controle de vagas, erros manuais, ausência de comunicação eficiente |
 | **Solução** | Desenvolvimento de um aplicativo mobile para automatizar inscrições, gerenciar listas de espera e melhorar a comunicação |
 
 ---
@@ -42,7 +42,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 | Usuário | Ambiente operacional |
 | :-----: | :------------------: |
-| Estudante | Dispositivos móveis (smartphones) com acesso à internet |
+| Estudante | Dispositivos móveis (smartphones e laptops) com acesso à internet |
 | Administrador | Computadores ou dispositivos móveis com acesso à internet |
 
 ---
@@ -51,7 +51,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 1. **Estudante**
    - Realizar inscrição online em turmas esportivas
-   - Visualizar status da inscrição
+   - Visualizar status da inscrição (em lista de espera, em andamento ou aprovada)
    - Acompanhar posição na lista de espera
    - Receber informações atualizadas sobre vagas
 
@@ -82,7 +82,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 | ID  | Regra | Descrição |
 | :-: | :---: | :-------: |
-| RN01 | Limite de inscrições | Cada estudante pode se inscrever em no máximo 3 turmas |
+| RN01 | Limite de inscrições | Cada estudante pode se inscrever em, no máximo, 3 turmas |
 | RN02 | Ordem de inscrição | As vagas são preenchidas por ordem de chegada |
 | RN03 | Lista de espera | Alunos excedentes são inseridos automaticamente em lista de espera |
 | RN04 | Promoção automática | Quando uma vaga é liberada, o próximo da lista de espera é promovido |
@@ -93,57 +93,25 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 ## 8. Requisitos Funcionais
 
-### 8.1 Cadastro e Autenticação
-
 | Código | Nome | Descrição | Prioridade |
 | :----: | :--: | :-------: | :--------: |
 | RF01 | Cadastro de usuário | Permitir que o estudante se cadastre no sistema | Alta |
 | RF02 | Autenticação | Permitir login de usuários | Alta |
-
----
-
-### 8.2 Gerenciamento de Turmas
-
-| Código | Nome | Descrição | Prioridade |
-| :----: | :--: | :-------: | :--------: |
 | RF03 | Visualizar turmas | Exibir turmas disponíveis e lotadas | Alta |
 | RF04 | Criar turma | Permitir que o administrador crie novas turmas | Alta |
-
----
-
-### 8.3 Inscrição
-
-| Código | Nome | Descrição | Prioridade |
-| :----: | :--: | :-------: | :--------: |
 | RF05 | Inscrição em turma | Permitir inscrição em turmas | Alta |
-| RF06 | Lista de espera | Inserir automaticamente em lista de espera quando não houver vagas | Alta |
+| RF06 | Lista de espera | Inserir automaticamente em lista de espera quando não houver vagas remanescentes | Alta |
 | RF07 | Cancelar inscrição | Permitir desistência da turma | Média |
-
----
-
-### 8.4 Acompanhamento
-
-| Código | Nome | Descrição | Prioridade |
-| :----: | :--: | :-------: | :--------: |
 | RF08 | Visualizar status | Permitir ao aluno visualizar sua situação na turma | Alta |
 | RF09 | Visualizar posição | Mostrar posição na lista de espera | Alta |
-
----
-
-### 8.5 Administração
-
-| Código | Nome | Descrição | Prioridade |
-| :----: | :--: | :-------: | :--------: |
 | RF10 | Gerenciar inscritos | Permitir visualizar e gerenciar inscritos | Média |
-
----
 
 ## 9. Requisitos Não-funcionais
 
 | Código | Nome | Descrição | Categoria | Classificação |
 | :----: | :--: | :-------: | :-------: | :-----------: |
 | NF01 | Usabilidade | Interface simples e intuitiva para os usuários | Usabilidade | Obrigatório |
-| NF02 | Disponibilidade | Sistema disponível 24/7 | Confiabilidade | Obrigatório |
+| NF02 | Disponibilidade | Sistema disponível em qualquer horário | Confiabilidade | Obrigatório |
 | NF03 | Desempenho | Resposta rápida nas operações de inscrição | Performance | Obrigatório |
 | NF04 | Segurança | Proteção dos dados pessoais dos usuários (CPF, telefone) | Confiabilidade | Obrigatório |
 | NF05 | Compatibilidade | Funcionar em diferentes dispositivos móveis | Suportabilidade | Desejável |
