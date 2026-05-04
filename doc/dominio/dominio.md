@@ -9,10 +9,9 @@
 
 ## 1. Diagrama das Classes Conceituais do Domínio
 
-![Substitua pela imagem do diagrama de classes de domínio...](imgs/placeholder.png)
-> Substitua pela imagem do diagrama de classes de domínio...
+![Substitua pela imagem do diagrama de classes de domínio...](imgs/Modelo_de_Domínio.png)
 
-[LINK para o arquivo Astah com o modelo](/doc/arquivo_astah/nome_do_projeto.asta)
+[LINK para o arquivo Astah com o modelo](/doc/arquivo_astah/Modelo_de_Domínio.asta)
 
 ## 2. Glossário (sugestão)
 
