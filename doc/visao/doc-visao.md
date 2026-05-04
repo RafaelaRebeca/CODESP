@@ -51,7 +51,7 @@ A aplicação permitirá que estudantes realizem inscrições de forma remota, a
 
 1. **Estudante**
    - Realizar inscrição online em turmas esportivas
-   - Visualizar status da inscrição (em lista de espera, em andamento ou aprovada)
+   - Visualizar status da inscrição (aguardando análise, em análise, deferida, indeferida ou cancelada)
    - Acompanhar posição na lista de espera
    - Receber informações atualizadas sobre vagas
 
