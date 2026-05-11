@@ -11,7 +11,7 @@
 
 ![Substitua pela imagem do diagrama de classes de domínio...](/doc/dominio/imgs/dominio.png)
 
-[LINK para o arquivo Astah com o modelo](/doc/arquivo_astah/esportacus.asta)
+[LINK para o arquivo Astah com o modelo](/doc/arquivo_astah/CODESP.asta)
 
 ## 2. Glossário (sugestão)
 
